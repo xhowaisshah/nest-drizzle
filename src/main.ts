@@ -8,6 +8,6 @@ async function bootstrap() {
     methods: 'GET,POST,PUT,DELETE,PATCH,OPTIONS',
     allowedHeaders: 'X-Requested-With,Content-Type,Authorization',
   });
-  await app.listen(3000);
+  await app.listen(3002);
 }
 bootstrap();
