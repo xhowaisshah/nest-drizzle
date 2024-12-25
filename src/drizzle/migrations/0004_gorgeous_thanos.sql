@@ -1,0 +1,1 @@
+ALTER TABLE "leases" DROP CONSTRAINT "leases_lease_id_unique";

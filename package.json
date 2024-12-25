@@ -20,7 +20,9 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "dbgenerate": "drizzle-kit generate --config=./src/drizzle.config.ts",
     "dbpush:script": "bun ./src/drizzle/migrate.ts",
-    "dbpush": "drizzle-kit push --config=./src/drizzle.config.ts"
+    "dbpush": "drizzle-kit push --config=./src/drizzle.config.ts",
+    "dbstudio": "drizzle-kit studio --config=./src/drizzle.config.ts",
+    "dbdrop": "drizzle-kit drop --config=./src/drizzle.config.ts"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
